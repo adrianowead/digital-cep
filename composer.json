@@ -1,0 +1,23 @@
+{
+    "name": "wead/digital-cep",
+    "description": "Busca de cep online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adriano Maciel",
+            "email": "adriano_mail@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Wead\\DigitalCep\\": "src/"
+        }
+    }
+}
